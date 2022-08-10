@@ -5,3 +5,9 @@
 function myFunction(a) {
   return a.slice(0, a.length / 2);
 }
+
+// Test Cases:
+// myFunction('abcdefgh')  - Expected : 'abcd'
+// myFunction('1234')      - Expected : '12'
+// myFunction('gedcba')    - Expected : 'ged'
+
