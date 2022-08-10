@@ -11,3 +11,8 @@ function myFunction(str) {
 function myFunction(str) {
   return str.slice(-3);
 }
+
+// Test Cases:
+// myFunction('abcdefg') - Expected : 'efg'
+// myFunction('1234')    - Expected : '234'
+// myFunction('fgedcba') - Expected : 'cba'
