@@ -9,6 +9,7 @@ function myFunction(a, b) {
       ++count;
     }
   });
+  return count;
 }
 
 // Author Solution:
